@@ -1,0 +1,61 @@
+.modalOverlay{
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalOverlay .modal {
+    border: none;
+    box-shadow: 0 0 20px 0 rgba(255, 255, 255, 0.6);
+    padding: 20px;
+    height: 500px;
+    width: 400px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+.modalOverlay .modal h1 {
+    font-size: 30px;
+}
+.modalOverlay .modal .inputGroup,.textareaGroup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.modalOverlay .modal .inputGroup,.textareaGroup label{
+    font-size: 20px;
+}
+.modalOverlay .modal .inputGroup input {
+    height: 50px;
+    padding: 0 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.modalOverlay .modal .textareaGroup textarea {
+    resize: none;
+    height: 100px;
+    border-radius: 10px;
+    border: 2px solid #000;
+    padding: 10px;
+    font-size: 18px;
+}
+.modalOverlay .modal button {
+    padding: 20px 0;
+    border-radius: 10px;
+    border: 1px solid #000;
+    background-color: transparent;
+    font-size: 20px;
+}
+.modalOverlay .modal .btnCreateModal:hover {
+    background-color: #10b510;
+    color: #fff;
+}
+.modalOverlay .modal .btnCancelModal:hover {
+    background-color: #c20303;
+    color: #fff;
+}

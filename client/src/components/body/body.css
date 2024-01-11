@@ -1,0 +1,51 @@
+.table {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 50px;
+}
+.table .titleBody {
+    text-align: center;
+    font-size: 90px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    width: 1000px;
+    border-radius: 10px;
+}
+.table .bodyTable {
+    width: 1000px;
+    padding: 20px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+
+}
+.table .bodyTable thead th {
+    font-size: 25px;
+}
+.table .bodyTable tbody {
+    text-align: center;
+}
+.table .bodyTable tbody tr .action {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.table .bodyTable tbody tr td {
+    font-size: 20px;
+    height: 50px;
+}
+.table .bodyTable tbody tr td button {
+    padding: 10px 30px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.table .bodyTable tbody tr td .deleteStudent:hover {
+    background-color: #e70303;
+    color: #fff;
+}
+.table .bodyTable tbody tr td .editStudent:hover {
+    background-color: #036ae7;
+    color: #fff;
+}
